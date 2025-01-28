@@ -1,0 +1,13 @@
+
+    <p class="Logos">Tipos de logos que tenemos</p>
+    <a class="PackLogos" href="Pack de Logos.html">Ver Pack de Logos</a>
+
+
+    <p class="Logos">Tipos de Benners que tenemos</p>
+    <a class="PackLogos" href="Pack de Banners.html">Ver Pack de Banner</a>
+
+    <p class="Logos">Otros packs que tenemos</p>
+    <a class="PackLogos" href="Packs.html">Ver otros packs</a>
+
+    <p class="Logos">Combos de Packs</p>
+    <a class="PackLogos" href="Combo de Packs.html">Ver los combos Packs</a>

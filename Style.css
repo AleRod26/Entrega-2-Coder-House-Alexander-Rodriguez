@@ -1,0 +1,162 @@
+/* El SELECTOR apunta al elemento HTML que queremos estilizar o darle un estilo
+La PROPIEDAD el aspecto que queresmos cambiar
+El VALOR es la configuracion de esa propiedad */ 
+
+/* Unidades de medida| PX, EM, REM y % ( % para ancho y alto */
+
+/* h1 {
+
+    background-color: chocolate;
+    text-align: center;
+    font-size: 10cap;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.Logos{
+    color: red;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.PackLogos{
+    color: black;
+}
+
+
+.Contactos{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.Telefono{
+    font-size: 20px;
+    margin: 5px;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(16, 40, 250);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+
+.LOGO {
+    width: 150px;
+    height: auto;
+}
+
+/* Navbar Items */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-items li {
+    display: inline;
+}
+
+.BarraNav {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.BarraNav:hover {
+    color: yellow;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    grid-template-rows: 1fr 1fr 1fr; /* Tres filas iguales */
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.text-section {
+    grid-column: 1 / 2; /* Ocupa la primera columna */
+    font-family: "Calibri", sans-serif; 
+    color: #333;
+}
+
+.image-section {
+    grid-column: 2 / 3; /* Ocupa la segunda columna */
+    text-align: center;
+}
+
+.TipoPc {
+    max-width: 100%; /* Asegura que la imagen sea responsiva */
+    height: auto;
+}
+
+#DiseñaTu {
+    font-family: "Calibri", sans-serif;
+    color: #0d47a1;
+    font-size: 50px;
+    margin-bottom: 20px; /* Espacio debajo */
+    margin-right: 100px;
+}
+
+#DiseñamosTu {
+    font-family: "Calibri", sans-serif; 
+    color: grey;
+    font-size: 17px;
+    margin-bottom: 0px; /* Espacio debajo */
+    margin-right: 120px
+    
+}
+
+.button {
+    background-color: #0d47a1; /* Azul */
+    color: white; /* Texto blanco */
+    font-size: 16px;
+    font-family: "Calibri", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano al pasar */
+    transition: background-color 0.3s ease; /* Suavidad en hover */
+    background-color: #083a87; /* Azul más oscuro al pasar */
+    margin-top: 0px; /* Espacio arriba */
+}
+
+#footer{
+    background-color: rgb(16, 40, 250);
+}
+
+.servicos{
+    margin-bottom: 5000px;
+
+}
