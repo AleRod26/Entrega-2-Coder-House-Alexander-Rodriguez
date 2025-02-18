@@ -53,12 +53,7 @@ header .BarraNav:hover {
   color: yellow;
 }
 
-body div .text-section {
-  grid-column: 1/2; /* Ocupa la primera columna */
-  font-family: "Calibri", sans-serif;
-  color: #333;
-}
-body div section .container {
+body .container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
   grid-template-rows: 1fr 1fr 1fr 1fr; /* Tres filas iguales */
@@ -66,21 +61,26 @@ body div section .container {
   gap: 20px;
   padding: 20px;
 }
-body div section h1 #DiseñaTu {
+body .container div .text-section {
+  grid-column: 1/2; /* Ocupa la primera columna */
+  font-family: "Calibri", sans-serif;
+  color: #333;
+}
+body .container div section h1 #DiseñaTu {
   font-family: "Calibri", sans-serif;
   color: #0d47a1;
   font-size: 40px;
   margin-bottom: 20px; /* Espacio debajo */
   margin-right: 100px;
 }
-body div section p #DiseñamosTu {
+body .container div section p #DiseñamosTu {
   font-family: "Calibri", sans-serif;
   color: grey;
   font-size: 18px;
   margin-bottom: 20px; /* Espacio debajo */
   margin-right: 120px;
 }
-body div section a button .BotonContacto {
+body .container div section a button .BotonContacto {
   background-color: #0d47a1; /* Azul */
   color: white; /* Texto blanco */
   font-size: 30px;
@@ -96,23 +96,15 @@ body div section a button .BotonContacto {
   margin-top: 0px; /* Espacio arriba */
   width: 300px;
 }
-body div section div .image-section {
+body .container div div .image-section {
   grid-column: 2/3; /* Ocupa la segunda columna */
   text-align: center;
 }
-body div section div .image-section .TipoPc {
-  max-width: 50%; /* Asegura que la imagen sea responsiva */
+body .container div div .image-section .TipoPc {
+  max-width: 100%; /* Asegura que la imagen sea responsiva */
   height: auto;
 }
-body div section.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
-  grid-template-rows: 1fr 1fr 1fr 1fr; /* Tres filas iguales */
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-}
-body div .SeccionServicios {
+body .container div section .SeccionServicios {
   background-color: #0d47a1;
   width: 200%; /* Ancho del área */
   height: 500px; /* Alto del área */
@@ -121,7 +113,7 @@ body div .SeccionServicios {
   grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
   grid-template-rows: repeat(4, 1fr); /* Tres filas iguales */
 }
-body div .SeccionServicios .SeccionServicios p {
+body .container div section .SeccionServicios .SeccionServicios p {
   font-family: "Calibri", sans-serif;
   color: white;
   font-size: 15px;
@@ -133,14 +125,14 @@ body div .SeccionServicios .SeccionServicios p {
   display: flex;
   text-align: justify;
 }
-body div .SeccionServicios .SeccionServicios li {
+body .container div section .SeccionServicios .SeccionServicios li {
   color: white;
   font-family: "Calibri", sans-serif;
   margin-bottom: 20px;
   grid-column: 1/2;
   grid-row: 3/4;
 }
-body div h1 .Transformamos {
+body .container div section h1 .Transformamos {
   grid-column: 1/2;
   grid-row: 1/2;
   font-family: "Calibri", sans-serif;
@@ -151,7 +143,7 @@ body div h1 .Transformamos {
   margin-bottom: 5px; /* Espacio debajo */
   margin-right: 50px;
 }
-body div .LinkServicios {
+body .container div section .LinkServicios {
   color: white;
   font-family: "Calibri", sans-serif;
   font-size: 30px;
@@ -160,7 +152,7 @@ body div .LinkServicios {
   grid-column: 1/2;
   grid-row: 4/5;
 }
-body .CelularFuturista {
+body .container div .CelularFuturista {
   max-width: 100%;
   height: 500px;
   background-color: #0d47a1;
@@ -318,6 +310,4 @@ body .BodyLogos main section .Logo1 img .ImagenLogo1 {
   .image-section img {
     max-width: 80%;
   }
-}
-
-/*# sourceMappingURL=Style.css.map */
+}/*# sourceMappingURL=style.css.map */
