@@ -95,7 +95,6 @@ body{
                     }
                     a{
                         button{
-                            .BotonContacto{
                                 background-color: #0d47a1; /* Azul */
                                 color: white; /* Texto blanco */
                                 font-size: 30px;
@@ -110,27 +109,20 @@ body{
                                 background-color: #083a87; /* Azul más oscuro al pasar */
                                 margin-top: 0px; /* Espacio arriba */
                                 width: 300px;
-                            }
                         }
                     }
-                    div{
-                        .image-section {
-                            grid-column: 2 / 3; /* Ocupa la segunda columna */
-                            text-align: center;
+                div{
+                    .image-section {
+                        grid-column: 2 / 3; /* Ocupa la segunda columna */
+                        text-align: center;
                         .TipoPc{
                             max-width: 50%; /* Asegura que la imagen sea responsiva */
                             height: auto;
                             }
                         }
                     }
-                }
-                section.container {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
-                    grid-template-rows: 1fr 1fr 1fr 1fr; /* Tres filas iguales */
-                    align-items: center;
-                    gap: 20px;
-                    padding: 20px;}
+            }
+                section{
                     .SeccionServicios{
                         background-color: #0d47a1;
                         width: 200%;  /* Ancho del área */
@@ -188,6 +180,7 @@ body{
                     background-color: #0d47a1;
                 }
             }
+        }
 
 
 footer{
