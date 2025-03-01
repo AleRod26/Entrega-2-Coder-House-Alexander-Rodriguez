@@ -61,26 +61,28 @@ body .container {
   gap: 20px;
   padding: 20px;
 }
-body .container div .text-section {
+body .text-section {
   grid-column: 1/2; /* Ocupa la primera columna */
   font-family: "Calibri", sans-serif;
   color: #333;
 }
-body .container div section h1 #DiseñaTu {
+body #DiseñaTu {
   font-family: "Calibri", sans-serif;
   color: #0d47a1;
   font-size: 40px;
   margin-bottom: 20px; /* Espacio debajo */
   margin-right: 100px;
 }
-body .container div section p #DiseñamosTu {
+
+#DiseñamosTu {
   font-family: "Calibri", sans-serif;
   color: grey;
   font-size: 18px;
   margin-bottom: 20px; /* Espacio debajo */
   margin-right: 120px;
 }
-body .container div section a button .BotonContacto {
+
+button {
   background-color: #0d47a1; /* Azul */
   color: white; /* Texto blanco */
   font-size: 30px;
@@ -96,15 +98,17 @@ body .container div section a button .BotonContacto {
   margin-top: 0px; /* Espacio arriba */
   width: 300px;
 }
-body .container div div .image-section {
+
+.image-section {
   grid-column: 2/3; /* Ocupa la segunda columna */
-  text-align: center;
+  text-align: right;
 }
-body .container div div .image-section .TipoPc {
-  max-width: 100%; /* Asegura que la imagen sea responsiva */
+.image-section .TipoPc {
+  max-width: 50%; /* Asegura que la imagen sea responsiva */
   height: auto;
 }
-body .container div section .SeccionServicios {
+
+.SeccionServicios {
   background-color: #0d47a1;
   width: 200%; /* Ancho del área */
   height: 500px; /* Alto del área */
@@ -113,26 +117,25 @@ body .container div section .SeccionServicios {
   grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
   grid-template-rows: repeat(4, 1fr); /* Tres filas iguales */
 }
-body .container div section .SeccionServicios .SeccionServicios p {
+.SeccionServicios p {
   font-family: "Calibri", sans-serif;
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   -ms-flex-align: baseline;
-  margin-top: 5px;
+  margin-top: 2px;
   margin-bottom: 15px;
   grid-column: 1/2;
   grid-row: 2/3;
-  display: flex;
-  text-align: justify;
 }
-body .container div section .SeccionServicios .SeccionServicios li {
+.SeccionServicios li {
   color: white;
   font-family: "Calibri", sans-serif;
   margin-bottom: 20px;
   grid-column: 1/2;
   grid-row: 3/4;
 }
-body .container div section h1 .Transformamos {
+
+h1 .Transformamos {
   grid-column: 1/2;
   grid-row: 1/2;
   font-family: "Calibri", sans-serif;
@@ -143,7 +146,8 @@ body .container div section h1 .Transformamos {
   margin-bottom: 5px; /* Espacio debajo */
   margin-right: 50px;
 }
-body .container div section .LinkServicios {
+
+.LinkServicios {
   color: white;
   font-family: "Calibri", sans-serif;
   font-size: 30px;
@@ -152,7 +156,8 @@ body .container div section .LinkServicios {
   grid-column: 1/2;
   grid-row: 4/5;
 }
-body .container div .CelularFuturista {
+
+.CelularFuturista {
   max-width: 100%;
   height: 500px;
   background-color: #0d47a1;
@@ -310,4 +315,6 @@ body .BodyLogos main section .Logo1 img .ImagenLogo1 {
   .image-section img {
     max-width: 80%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

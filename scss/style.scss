@@ -61,68 +61,58 @@ header { background-color: #0d47a1;
 }
 
 body{
-    div{
-            .text-section {
-                grid-column: 1 / 2; /* Ocupa la primera columna */
-                font-family: "Calibri", sans-serif; 
-                color: #333;
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+            grid-template-rows: 1fr 1fr 1fr 1fr; /* Tres filas iguales */
+            align-items: center;
+            gap: 20px;
+            padding: 20px;}
+        .text-section{
+            grid-column: 1 / 2; /* Ocupa la primera columna */
+            font-family: "Calibri", sans-serif; 
+            color: #333;
             }
-                section{
-                    .container {
-                        display: grid;
-                        grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
-                        grid-template-rows: 1fr 1fr 1fr 1fr; /* Tres filas iguales */
-                        align-items: center;
-                        gap: 20px;
-                        padding: 20px;}
-                    h1{
-                        #DiseñaTu {
+                    #DiseñaTu{
+                        font-family: "Calibri", sans-serif;
+                        color: #0d47a1;
+                        font-size: 40px;
+                        margin-bottom: 20px; /* Espacio debajo */
+                        margin-right: 100px;
+                        }
+                }
+                    #DiseñamosTu{
+                        font-family: "Calibri", sans-serif; 
+                        color: grey;
+                        font-size: 18px;
+                        margin-bottom: 20px; /* Espacio debajo */
+                        margin-right: 120px
+                    }
+                    button{
+                            background-color: #0d47a1; /* Azul */
+                            color: white; /* Texto blanco */
+                            font-size: 30px;
                             font-family: "Calibri", sans-serif;
-                            color: #0d47a1;
-                            font-size: 40px;
-                            margin-bottom: 20px; /* Espacio debajo */
-                            margin-right: 100px;
+                            font-weight: bold;
+                            text-transform: uppercase; /* Texto en mayúsculas */
+                            padding: 10px 20px; /* Espaciado interno */
+                            border: none; /* Sin borde */
+                            border-radius: 5px; /* Bordes redondeados */
+                            cursor: pointer; /* Cursor de mano al pasar */
+                            transition: background-color 0.3s ease; /* Suavidad en hover */
+                            background-color: #083a87; /* Azul más oscuro al pasar */
+                            margin-top: 0px; /* Espacio arriba */
+                            width: 300px;
                         }
-                    }
-                    p{
-                        #DiseñamosTu {
-                            font-family: "Calibri", sans-serif; 
-                            color: grey;
-                            font-size: 18px;
-                            margin-bottom: 20px; /* Espacio debajo */
-                            margin-right: 120px
-                                    }
-                    }
-                    a{
-                        button{
-                                background-color: #0d47a1; /* Azul */
-                                color: white; /* Texto blanco */
-                                font-size: 30px;
-                                font-family: "Calibri", sans-serif;
-                                font-weight: bold;
-                                text-transform: uppercase; /* Texto en mayúsculas */
-                                padding: 10px 20px; /* Espaciado interno */
-                                border: none; /* Sin borde */
-                                border-radius: 5px; /* Bordes redondeados */
-                                cursor: pointer; /* Cursor de mano al pasar */
-                                transition: background-color 0.3s ease; /* Suavidad en hover */
-                                background-color: #083a87; /* Azul más oscuro al pasar */
-                                margin-top: 0px; /* Espacio arriba */
-                                width: 300px;
-                        }
-                    }
-                div{
-                    .image-section {
-                        grid-column: 2 / 3; /* Ocupa la segunda columna */
-                        text-align: center;
-                        .TipoPc{
-                            max-width: 50%; /* Asegura que la imagen sea responsiva */
-                            height: auto;
-                            }
-                        }
-                    }
-            }
-                section{
+                .image-section {
+                    grid-column: 2 / 3; /* Ocupa la segunda columna */
+                    text-align: right;
+                .TipoPc{
+                    max-width: 50%; /* Asegura que la imagen sea responsiva */
+                    height: auto;
+                }
+                    
+                }
                     .SeccionServicios{
                         background-color: #0d47a1;
                         width: 200%;  /* Ancho del área */
@@ -131,56 +121,52 @@ body{
                         display: grid;
                         grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
                         grid-template-rows: repeat(4, 1fr); /* Tres filas iguales */
-                            .SeccionServicios p{
+                            p{
                                 font-family: "Calibri", sans-serif;
                                 color: white;
-                                font-size: 15px;
+                                font-size: 17px;
                                 -ms-flex-align: baseline;
-                                margin-top: 5px;
+                                margin-top: 2px;
                                 margin-bottom: 15px;
                                 grid-column: 1 / 2;
                                 grid-row: 2 / 3;
-                                display: flex;
-                                text-align: justify;
+                            }
+                            li{
+                                color: white;
+                                font-family: "Calibri", sans-serif;
+                                margin-bottom: 20px;
+                                grid-column: 1 / 2;
+                                grid-row: 3 / 4;
+                            }
+                    }
+                        h1{
+                            .Transformamos{
+                                grid-column: 1 / 2;
+                                grid-row: 1 / 2;
+                                font-family: "Calibri", sans-serif;
+                                font-optical-sizing: auto;
+                                font-style: normal;
+                                color: white;
+                                font-size: 35px;
+                                margin-bottom: 5px; /* Espacio debajo */
+                                margin-right: 50px
+                            }
                         }
-                        .SeccionServicios li{
+                        .LinkServicios{
                             color: white;
                             font-family: "Calibri", sans-serif;
+                            font-size: 30px;
                             margin-bottom: 20px;
+                            margin-top: 20px;
                             grid-column: 1 / 2;
-                            grid-row: 3 / 4;
-                        }
+                            grid-row: 4 / 5;
                     }
-                    h1{
-                        .Transformamos{
-                            grid-column: 1 / 2;
-                            grid-row: 1 / 2;
-                            font-family: "Calibri", sans-serif;
-                            font-optical-sizing: auto;
-                            font-style: normal;
-                            color: white;
-                            font-size: 35px;
-                            margin-bottom: 5px; /* Espacio debajo */
-                            margin-right: 50px
-                        }
+                    .CelularFuturista{
+                        max-width: 100%;
+                        height: 500px;
+                        background-color: #0d47a1;
                     }
-                    .LinkServicios{
-                        color: white;
-                        font-family: "Calibri", sans-serif;
-                        font-size: 30px;
-                        margin-bottom: 20px;
-                        margin-top: 20px;
-                        grid-column: 1 / 2;
-                        grid-row: 4 / 5;
-                    }
-                }
-                .CelularFuturista{
-                    max-width: 100%;
-                    height: 500px;
-                    background-color: #0d47a1;
-                }
-            }
-        }
+
 
 
 footer{
