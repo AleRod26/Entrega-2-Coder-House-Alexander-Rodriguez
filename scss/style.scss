@@ -167,12 +167,9 @@ body{
                         background-color: #0d47a1;
                     }
 
-
-
 footer{
-    #footer{
-        background-color: #0d47a1;
-    }
+    background-color: #0d47a1;
+    margin-top: 30px;
 }
 
 
@@ -260,39 +257,143 @@ body{
 /*-----Logos-----*/
 
 body{
-    .BodyLogos{
+    .ColumnasFilas{
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
-    main{
-        section{
-            .Logo1{
-                grid-column: 1 / 2;
-                grid-row: 1 / 2;
-                h2{
-                    margin-bottom: 15px;
-                    font-family: "Calibri", sans-serif;
-                    color: #0d47a1;
-                    font-size: 35px;
-                    margin-left: 20px;
+                    .DiseñoLogo{
+                        grid-column: 1 / 2;
+                        grid-row: 1 / 2;
+                        h2{
+                            margin-bottom: 15px;
+                            font-family: "Calibri", sans-serif;
+                            color: #0d47a1;
+                            font-size: 35px;
+                            margin-left: 20px;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            font-family: "Calibri", sans-serif;
+                            font-size: 17px;
+                            text-align: justify;
+                            margin-left: 20px;
+                        }
+                        #VerPackLogo{
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                            text-decoration: none;
+                            color: #0d47a1;
+                        }
+                    }
+                    .GestionRedes{
+                        grid-column: 2 / 3;
+                        grid-row: 1 / 2;
+                        h1{
+                            margin-bottom: 15px;
+                            font-family: "Calibri", sans-serif;
+                            color: #0d47a1;
+                            font-size: 35px;
+                            margin-left: 20px;
+                        }
+                        p{
+                            font-family: "Calibri", sans-serif;
+                            font-size: 17px;
+                            text-align: justify;
+                            margin-left: 20px;
+                        }
+                    }
+                    .DiseñoBaner{
+                        grid-column: 3 / 4;
+                        grid-row: 1 / 2;
+                        h2{
+                            margin-bottom: 15px;
+                            font-family: "Calibri", sans-serif;
+                            color: #0d47a1;
+                            font-size: 35px;
+                            margin-left: 20px;
+                        }
+                        p{
+                            font-family: "Calibri", sans-serif;
+                            font-size: 17px;
+                            text-align: justify;
+                            margin-left: 20px;
+                        }
+                        #VerPackBanner{
+                            text-decoration: none;
+                            color: #0d47a1;
+                        }
                 }
-                p{
-                    font-family: "Calibri", sans-serif;
-                    font-size: 17px;
-                    text-align: justify;
-                    margin-left: 20px;
-                }
-                img{
+            }
+        }
+
+
+/*-------------------------------BODY LOGOS--------------------------------------*/
+body{
+    .BodyLogos{
+        main{
+            section{
+                .Logo1{
+                    h2{
+                        font-size: 30px;
+                        color: #0d47a1;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        font-size: 15px;
+                        color: black;
+                        margin-top: 5px;
+                    }
                     .ImagenLogo1{
-                        width: 400px;
-                        height: 400px;
+                        text-decoration: none;
+                        font-size: 10px;
+                        color: #0d47a1;
+                        margin-top: 5px;
+                    }
+                }
+            }
+            section{
+                .Logo2{
+                    h2{
+                        font-size: 30px;
+                        color: #0d47a1;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        font-size: 15px;
+                        color: black;
+                        margin-top: 5px;
+                    }
+                    .ImagenLogo2{
+                        text-decoration: none;
+                        font-size: 10px;
+                        color: #0d47a1;
+                        margin-top: 5px;
+                    }
+                }
+            }
+            section{
+                .Logo3{
+                    h2{
+                        font-size: 30px;
+                        color: #0d47a1;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        font-size: 15px;
+                        color: black;
+                        margin-top: 5px;
+                    }
+                    .ImagenLogo3{
+                        text-decoration: none;
+                        font-size: 10px;
+                        color: #0d47a1;
+                        margin-top: 5px;
                     }
                 }
             }
         }
     }
-    }
-}
-
+}      
 
 
 /*-------------------------------------------------------------------------------------------*/

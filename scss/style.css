@@ -163,8 +163,9 @@ h1 .Transformamos {
   background-color: #0d47a1;
 }
 
-footer #footer {
+footer {
   background-color: #0d47a1;
+  margin-top: 30px;
 }
 
 /*---------------------------APARTADO DE SERVICIOS-------------------------------------------*/
@@ -236,30 +237,122 @@ body section p {
 /*-------------------------------------------------------------------------------------------*/
 /*----------Apartado dentro de los servicios----------*/
 /*-----Logos-----*/
-body .BodyLogos {
+body .ColumnasFilas {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
 }
-body .BodyLogos main section .Logo1 {
+body .ColumnasFilas .DiseñoLogo {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-body .BodyLogos main section .Logo1 h2 {
+body .ColumnasFilas .DiseñoLogo h2 {
+  margin-bottom: 15px;
+  font-family: "Calibri", sans-serif;
+  color: #0d47a1;
+  font-size: 35px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+body .ColumnasFilas .DiseñoLogo p {
+  font-family: "Calibri", sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  margin-left: 20px;
+}
+body .ColumnasFilas .DiseñoLogo #VerPackLogo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #0d47a1;
+}
+body .ColumnasFilas .GestionRedes {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+body .ColumnasFilas .GestionRedes h1 {
   margin-bottom: 15px;
   font-family: "Calibri", sans-serif;
   color: #0d47a1;
   font-size: 35px;
   margin-left: 20px;
 }
-body .BodyLogos main section .Logo1 p {
+body .ColumnasFilas .GestionRedes p {
   font-family: "Calibri", sans-serif;
   font-size: 17px;
   text-align: justify;
   margin-left: 20px;
 }
-body .BodyLogos main section .Logo1 img .ImagenLogo1 {
-  width: 400px;
-  height: 400px;
+body .ColumnasFilas .DiseñoBaner {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+body .ColumnasFilas .DiseñoBaner h2 {
+  margin-bottom: 15px;
+  font-family: "Calibri", sans-serif;
+  color: #0d47a1;
+  font-size: 35px;
+  margin-left: 20px;
+}
+body .ColumnasFilas .DiseñoBaner p {
+  font-family: "Calibri", sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  margin-left: 20px;
+}
+body .ColumnasFilas .DiseñoBaner #VerPackBanner {
+  text-decoration: none;
+  color: #0d47a1;
+}
+
+/*-------------------------------BODY LOGOS--------------------------------------*/
+body .BodyLogos main section .Logo1 h2 {
+  font-size: 30px;
+  color: #0d47a1;
+  margin-bottom: 15px;
+}
+body .BodyLogos main section .Logo1 p {
+  font-size: 15px;
+  color: black;
+  margin-top: 5px;
+}
+body .BodyLogos main section .Logo1 .ImagenLogo1 {
+  text-decoration: none;
+  font-size: 10px;
+  color: #0d47a1;
+  margin-top: 5px;
+}
+body .BodyLogos main section .Logo2 h2 {
+  font-size: 30px;
+  color: #0d47a1;
+  margin-bottom: 15px;
+}
+body .BodyLogos main section .Logo2 p {
+  font-size: 15px;
+  color: black;
+  margin-top: 5px;
+}
+body .BodyLogos main section .Logo2 .ImagenLogo2 {
+  text-decoration: none;
+  font-size: 10px;
+  color: #0d47a1;
+  margin-top: 5px;
+}
+body .BodyLogos main section .Logo3 h2 {
+  font-size: 30px;
+  color: #0d47a1;
+  margin-bottom: 15px;
+}
+body .BodyLogos main section .Logo3 p {
+  font-size: 15px;
+  color: black;
+  margin-top: 5px;
+}
+body .BodyLogos main section .Logo3 .ImagenLogo3 {
+  text-decoration: none;
+  font-size: 10px;
+  color: #0d47a1;
+  margin-top: 5px;
 }
 
 /*-------------------------------------------------------------------------------------------*/
